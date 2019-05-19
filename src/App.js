@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { HashRouter as Router, Route} from "react-router-dom";
 import AboutMe from "./components/AboutMe";
 import Skill from "./components/Skill";
 import Education from "./components/Education";
