@@ -4,7 +4,7 @@ import SkillOne from "./SkillOne";
 export default class Skill extends Component {
   render() {
     return (
-      <div className="card mt-5">
+      <div className="card mt-4">
         <h3 className="pt-3 m-auto">Skills</h3>
         <div className="card-body">
           <div className="row">

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class AboutMe extends Component {
   render() {
     return (
-      <div className="card mt-5 pt-3 pr-3 pl-3">
+      <div className="card mt-4 pt-3 pr-3 pl-3">
         <div className="row">
           <div className="col-md-4">
             <img 

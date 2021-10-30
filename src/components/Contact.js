@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Contact extends Component {
   render() {
     return (
-        <div className="card mt-5">
+        <div className="card mt-4">
         <h3 className="m-auto card-header pt-3" style={{color:'orange'}}>Contact</h3>
         <div className="card-body">
            
