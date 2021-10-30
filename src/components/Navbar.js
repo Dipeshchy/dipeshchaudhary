@@ -38,16 +38,21 @@ class Navbar extends Component {
                   Education
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" activeClassName="active" to="/experience">
+                  Experience
+                </NavLink>
+              </li>
               {/* <li className="nav-item">
                 <NavLink className="nav-link" activeClassName="active" to="/services">
                   Services
                 </NavLink>
               </li> */}
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" activeClassName="active" to="/contact">
                   Contact
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>

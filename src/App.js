@@ -7,7 +7,9 @@ import AboutMe from "./components/AboutMe";
 import Skill from "./components/Skill";
 import Education from "./components/Education";
 // import Services from './components/Services';
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 // import NotFound from "./components/NotFound";
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
         <Route exact path="/skills" component={Skill} />
         <Route exact path="/education" component={Education} />
         {/* <Route exact path="/services" component={Services} /> */}
-        <Route exact path="/contact" component={Contact} />
+        {/* <Route exact path="/contact" component={Contact} /> */}
+        <Route exact path="/experience" component={Experience} />
+        <Footer />
       </div>
     </Router>
   );

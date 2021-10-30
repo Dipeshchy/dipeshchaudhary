@@ -6,7 +6,12 @@ export default class AboutMe extends Component {
       <div className="card mt-5 pt-3 pr-3 pl-3">
         <div className="row">
           <div className="col-md-4">
-            <img src={require("../images/dipesh.jpg")} alt="me dipesh" />
+            <img 
+            style={{
+              height: "380px"
+            }}
+            className="rounded float-left"
+            src={require("../images/photo.jpg")} alt="me dipesh" />
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -15,96 +20,66 @@ export default class AboutMe extends Component {
               </h3>
               <h4>Computer Engineer,Software Developer</h4>
               <p>
-                My name is Dipesh Chaudhary. I am 24 years old. I am final year
-                student of Computer Engineering at Nepal College of Information
-                Technology. I have knowledge of software development and web
-                development. I am a tech enthusiast person. I have experiece
-                working with PHP(Laravel), Java(Spring,Grails), Javascript
-                (React,Angular),Bootstrap. Talking about my personal life,I love
-                reading novels.Harry Potter is the best literature art that I am
-                attached to most.I am big admirer of AR Rahman. I love listening
-                to his Tamils hits.
+                My name is Dipesh Chaudhary, 27 years tech enthusiast, wanderer,
+                student of MSc Global Software Development at Fulda University of 
+                Applied Sciences.
+               
               </p>
               <div className="row">
-                <ul style={{ listStyle: "none" }} className="col-md-4">
-                  <li>
-                    <a href="#">Age</a>
-                  </li>
-                  <li>
-                    <a href="#">Nationality</a>
-                  </li>
-                  <li>
-                    <a href="#">DOB</a>
-                  </li>
-                  <li>
-                    <a href="#">Permanent Address</a>
-                  </li>
-                  <li>
-                    <a href="#">Current Address</a>
-                  </li>
-                  <li>
-                    <a href="#">Mobile</a>
-                  </li>
-                  <li>
-                    <a href="#">Email</a>
-                  </li>
-                </ul>
-                <ul style={{ listStyle: "none" }} className="col-md-5">
-                  <li>
-                    <a href="#">24</a>
-                  </li>
-                  <li>
-                    <a href="#">Nepali</a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      October 22<sup>nd</sup> 1994
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">Lahan-11,Siraha</a>
-                  </li>
-                  <li>
-                    <a href="#">Imadol,Lalitpur</a>
-                  </li>
-                  <li>
-                    <a href="#">+977 9842458893</a>
-                  </li>
-                  <li>
-                    <a href="#">dipeshchaudhary5@gmail.com</a>
-                  </li>
-                </ul>
+              <ul class="list-group list-group-flush">
+              <li class="list-group-item">Email: dipeshchaudhary5@gmail.com / dipesh.chaudhary@informatik.hs-fulda.de</li>
+              <li class="list-group-item">Phone: +49-01749235734 / 01630196917</li>
+  <li class="list-group-item">Address: Wiesenmuehlenstr 3, Room no.3413, 36037 Fulda Germany</li>
+  
+  <li class="list-group-item">DOB : 22.10.1994</li>
+  <li class="list-group-item">Nationality : Nepali</li>
+  <li class="list-group-item">Languages : Nepali(Mother Tongue), English(C1), German(B1)</li>
+  
+</ul>
+
+               
               </div>
               <ul
-                style={{ listStyle: "none", height: "100px" }}
+                style={{ listStyle: "none", height: "100px", marginTop: "20px" }}
                 className="row"
               >
-                <li className="col-md-3">
+                {/* <li className="col-md-3">
                   <a
                     href="https://www.facebook.com/dipesh.chaudhary.3914"
                     target="_blank"
                   >
                     <i class="fab fa-facebook" />
                   </a>
-                </li>
-                <li className="col-md-3">
-                  <a href="https://twitter.com/Dipeshchy10" target="_blank">
-                    <i class="fab fa-twitter" />
+                </li> */}
+                <li className="col-md-4">
+                  <a
+                  style={{ textDecoration: "none" }}
+                    href="https://www.xing.com/profile/Dipesh_Chaudhary/cv"
+                    target="_blank"
+                  >
+                    <i class="fab fa-3x fa-xing" />
                   </a>
                 </li>
-                <li className="col-md-3">
-                  <a href="https://github.com/Dipeshchy" target="_blank">
-                    <i class="fab fa-github" />
-                  </a>
-                </li>
-                <li className="col-md-3">
+                <li className="col-md-4">
                   <a
                     href="https://www.linkedin.com/in/dipesh-chaudhary-26407011a/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin" />
+                    <i class="fab fa-3x fa-linkedin" />
                   </a>
                 </li>
+                
+                {/* <li className="col-md-3">
+                  <a href="https://twitter.com/Dipeshchy10" target="_blank">
+                    <i class="fab fa-3x fa-twitter" />
+                  </a>
+                </li> */}
+                <li className="col-md-4">
+                  <a href="https://github.com/Dipeshchy" target="_blank">
+                    <i class="fab fa-3x fa-github" />
+                  </a>
+                </li>
+                
               </ul>
             </div>
           </div>
